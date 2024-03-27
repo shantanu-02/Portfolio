@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.app{
+.app {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -16,7 +16,7 @@
   color: white;
   background: url("../public/img/bg.jpeg");
   scrollbar-width: none;
-  &::-webkit-scrollbar{
+  &::-webkit-scrollbar {
     display: none;
   }
 
@@ -25,7 +25,7 @@
   }
 }
 
-.hero{
+.hero {
   height: 100vh;
   scroll-snap-align: center;
   display: flex;
@@ -39,20 +39,20 @@
     padding: 5rem;
   }
 
-  .containerHero{
+  .containerHero {
     height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-
-  @media only screen and (max-width: 675px) {
     width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-    
-    .left{
+    display: flex;
+    justify-content: space-around;
+
+    @media only screen and (max-width: 675px) {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .left {
       flex: 1;
       display: flex;
       flex-direction: column;
@@ -60,56 +60,54 @@
       gap: 20px;
 
       @media only screen and (max-width: 675px) {
-      width: 100%;
-      flex: 1;
-      align-items: center;
-    }
-      .do{
+        width: 100%;
+        flex: 1;
+        align-items: center;
+      }
+      .do {
         display: flex;
         align-items: center;
         gap: 3px;
 
-        .line{
+        .line {
           height: 5px;
 
           @media only screen and (max-width: 1280px) {
-          height: 3px;
-        }
+            height: 3px;
+          }
         }
       }
 
-        .lineText{
-          font-size: 1.3rem;
-          color: #fa4141;
+      .lineText {
+        font-size: 1.3rem;
+        color: #fa4141;
 
-          @media only screen and (max-width: 1280px) {
+        @media only screen and (max-width: 1280px) {
           font-size: 1rem;
         }
-        }
+      }
 
-        .Text{
-          font-size: 1.5rem;
+      .Text {
+        font-size: 1.5rem;
 
-          @media only screen and (max-width: 675px) {
-            text-align: center;
-          }
-        
+        @media only screen and (max-width: 675px) {
+          text-align: center;
         }
+      }
 
-        .more{
-          background-color: #fa4141;
-          color: white;
-          font-weight: 500;
-          width: 100px;
-          padding: 10px;
-          border: none;
-          border-radius: 5px;
-          cursor: pointer;
-        }
+      .more {
+        background-color: #fa4141;
+        color: white;
+        font-weight: 500;
+        width: 100px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
     }
 
-
-    .right{
+    .right {
       flex: 1;
       position: relative;
 
@@ -120,7 +118,7 @@
         justify-content: center;
       }
 
-      .moon{
+      .moon {
         width: 800px;
         height: 550px;
         object-fit: contain;
@@ -133,10 +131,10 @@
         animation: animate 2s infinite ease alternate;
 
         @media only screen and (max-width: 1300px) {
-        height: 400px;
-        width: 400px;
-        display: flex;
-        justify-content: center;
+          height: 400px;
+          width: 400px;
+          display: flex;
+          justify-content: center;
         }
 
         @media only screen and (max-width: 675px) {
@@ -146,78 +144,78 @@
           width: 250px;
           display: flex;
           justify-content: center;
-          }
+        }
 
-  @keyframes animate {
-    to {
-      transform: translateY(20px);
+        @keyframes animate {
+          to {
+            transform: translateY(20px);
+          }
         }
       }
     }
   }
 }
-}
 
-.navbar{
+.navbar {
   width: 90%;
   display: flex;
   justify-content: center;
+  margin-top: 15px;
 
   @media only screen and (max-width: 675px) {
     width: 100%;
   }
 
-  .container{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0px;
-
-  @media only screen and (max-width: 675px) {
+  .container {
     width: 100%;
-    padding: 10px;
+    display: flex;
     justify-content: space-between;
-  }
+    align-items: center;
+    padding: 10px 0px;
 
-    .links{
+    @media only screen and (max-width: 675px) {
+      width: 100%;
+      padding: 10px;
+      justify-content: space-between;
+    }
+
+    .links {
       display: flex;
       align-items: center;
       gap: 50px;
 
-      .logo{
-        height: 4rem;
-      };
+      .logo {
+        height: 5rem;
+      }
 
-      .list{
+      .list {
         display: flex;
-        gap: 2rem;
+        gap: 3rem;
         list-style: none;
         cursor: pointer;
+        font-size: 15px;
 
         @media only screen and (max-width: 675px) {
           display: none;
         }
       }
-
     }
 
-    .icons{
+    .icons {
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 1rem;
 
-      .search{
+      .search {
         width: 20px;
 
-        
         @media only screen and (max-width: 675px) {
           display: none;
         }
       }
 
-      .button{
+      .button {
         border: none;
         outline: none;
         background-color: #fa4141;
@@ -232,19 +230,18 @@
   }
 }
 
-.who{
+.who {
   height: 100vh;
   scroll-snap-align: center;
   display: flex;
   width: 90%;
-  
 
   @media only screen and (max-width: 675px) {
     height: 115vh;
     width: 100%;
   }
 
-  .containerWho{
+  .containerWho {
     height: 100%;
     width: 100%;
     display: flex;
@@ -264,27 +261,26 @@
       height: 100%;
     }
 
-
-    .left{
+    .left {
       flex: 1;
       display: flex;
       justify-content: center;
       position: relative;
 
       @media only screen and (max-width: 1300px) {
-       width: 65%;
-      display: flex;
-      justify-content: center;
+        width: 65%;
+        display: flex;
+        justify-content: center;
       }
 
       @media only screen and (max-width: 675px) {
         height: 0;
         display: flex;
         justify-content: center;
-        }
+      }
     }
-    
-    .right{
+
+    .right {
       flex: 1;
       display: flex;
       justify-content: center;
@@ -296,9 +292,9 @@
         width: 35%;
         display: flex;
         justify-content: center;
-        }
-      
-      .topic{
+      }
+
+      .topic {
         font-size: 24px;
         color: lightgray;
 
@@ -308,9 +304,8 @@
           justify-content: center;
         }
       }
-      
 
-      .h1{
+      .h1 {
         font-size: 5rem;
         display: flex;
 
@@ -318,9 +313,8 @@
           display: flex;
           justify-content: center;
         }
-        
       }
-      .do{
+      .do {
         display: flex;
         flex-direction: column;
         gap: 1rem;
@@ -334,28 +328,28 @@
         }
       }
 
-        .lineText{
-          color: #fa4141;
+      .lineText {
+        color: #fa4141;
+      }
+
+      .lineTexts {
+        font-size: 20px;
+        width: 35rem;
+        color: lightgray;
+
+        @media only screen and (max-width: 675px) {
+          width: 20rem;
         }
 
-        .lineTexts{
-          font-size: 20px;
-          width: 35rem;
-          color: lightgray;
-
-          @media only screen and (max-width: 675px) {
-            width: 20rem;
-          }
-
-          @media only screen and (max-width: 1300px) {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-           }
+        @media only screen and (max-width: 1300px) {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
         }
+      }
 
-        /* .more{
+      /* .more{
         height: 1.2rem;
         width: max-content;
         padding: 2px;
@@ -367,28 +361,27 @@
         border-radius: 5px;
         cursor: pointer; */
 
-        .more{
-          background-color: #fa4141;
-          color: white;
-          font-weight: 500;
-          width: 100px;
-          padding: 6px;
-          border: none;
-          border-radius: 5px;
-          cursor: pointer;
-
+      .more {
+        background-color: #fa4141;
+        color: white;
+        font-weight: 500;
+        width: 100px;
+        padding: 6px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
 
         @media only screen and (max-width: 675px) {
           display: flex;
           justify-content: center;
         }
-        }
+      }
     }
   }
 }
 
-.works{
-  height: 150vh;
+.works {
+  height: 110vh;
   scroll-snap-align: center;
   width: 90%;
   display: flex;
@@ -399,8 +392,8 @@
     height: 100vh;
     scroll-snap-align: center;
   }
-  
-  .top{
+
+  .top {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -411,9 +404,9 @@
       scroll-snap-align: center;
       display: flex;
       justify-content: center;
-      }
-    
-    .topic{
+    }
+
+    .topic {
       font-size: 24px;
       color: lightgray;
 
@@ -422,9 +415,8 @@
         justify-content: center;
       }
     }
-    
 
-    .h1{
+    .h1 {
       font-size: 3.5rem;
       display: flex;
 
@@ -432,15 +424,14 @@
         display: flex;
         justify-content: center;
       }
-      
     }
-    .do{
+    .do {
       display: flex;
       flex-direction: column;
       gap: 1rem;
     }
 
-    .lineText{
+    .lineText {
       color: #fa4141;
 
       @media only screen and (max-width: 675px) {
@@ -450,31 +441,32 @@
       }
     }
 
-      .lineTexts{
-        font-size: 20px;
-        width: 45rem;
-        color: lightgray;
+    .lineTexts {
+      font-size: 20px;
+      width: 45rem;
+      color: lightgray;
 
-        @media only screen and (max-width: 675px) {
-          width: 100%;
-          padding:10px 0px ;
-          display: flex;
-          justify-content: center;
-        }
-
-        @media only screen and (max-width: 1300px) {
-          width: 100%;
-          padding:10px 0px ;
-          display: flex;
-          justify-content: center;
-        }
+      @media only screen and (max-width: 675px) {
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;
       }
+
+      @media only screen and (max-width: 1300px) {
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;
+      }
+    }
   }
 
-  .cardList{
+  .cardList {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 
     @media only screen and (max-width: 675px) {
       height: 0;
@@ -499,8 +491,8 @@
       align-items: center;
     }
   }
-  
-  .card{
+
+  .card {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -519,35 +511,29 @@
       width: 100%;
       height: 20rem;
     }
-    
 
+    .image {
+      display: flex;
+      justify-content: center;
 
-.image{
-    display: flex;
-    justify-content: center;
-
-    @media only screen and (max-width: 675px) {
-      height: 6rem;
-    }
-
-
-    .cardImage{
-      width: 100%;
-      object-fit: contain;
-      border-radius: 5px;
-    }
-    }
-    }
-
-    .cardTitle{
-    
-      @media only screen and (max-width: 1300px) {
-    
-        font-size: 1rem;
-    
+      @media only screen and (max-width: 675px) {
+        height: 6rem;
       }
 
-    .cardInfo{
+      .cardImage {
+        width: 100%;
+        object-fit: contain;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .cardTitle {
+    @media only screen and (max-width: 1300px) {
+      font-size: 1rem;
+    }
+
+    .cardInfo {
       font-size: 0.8rem;
 
       @media only screen and (max-width: 1300px) {
@@ -557,13 +543,12 @@
   }
 }
 
-.contact{
+.contact {
   height: 100vh;
   scroll-snap-align: center;
   width: 90%;
   padding: 5rem 0rem;
   display: flex;
-  
 
   @media only screen and (max-width: 675px) {
     height: 120vh;
@@ -573,19 +558,19 @@
     justify-content: center;
   }
 
-  .contactContainer{
+  .contactContainer {
     display: flex;
     height: 100%;
     width: 100%;
 
     @media only screen and (max-width: 675px) {
       display: flex;
-      flex-wrap: wrap-reverse;;
+      flex-wrap: wrap-reverse;
       justify-content: center;
       height: 100vh;
     }
 
-    .left{
+    .left {
       flex: 2;
       width: 100%;
 
@@ -593,18 +578,17 @@
         height: 70%;
       }
 
-      .module{
-
-        .topic{
+      .module {
+        .topic {
           color: lightgray;
           font-size: 25px;
-          
+
           @media only screen and (max-width: 1300px) {
             font-size: 20px;
           }
         }
 
-        .h1{
+        .h1 {
           font-size: 60px;
 
           @media only screen and (max-width: 1300px) {
@@ -613,8 +597,7 @@
         }
       }
 
-
-      .contactForm{
+      .contactForm {
         width: 70%;
         height: 110%;
         background-color: #05051f;
@@ -629,7 +612,7 @@
           margin: 0rem 2rem;
         }
 
-        .name{
+        .name {
           width: 100%;
           height: 8%;
           outline: none;
@@ -641,7 +624,7 @@
           padding: 1rem;
         }
 
-        .email{
+        .email {
           width: 100%;
           height: 8%;
           outline: none;
@@ -652,7 +635,7 @@
           padding: 1rem;
         }
 
-        .message{
+        .message {
           width: 100%;
           height: 32%;
           outline: none;
@@ -663,7 +646,7 @@
           padding: 1rem;
         }
 
-        .send{
+        .send {
           font-size: 100%;
           width: 100%;
           height: 8%;
@@ -673,12 +656,11 @@
           color: gray;
           background-color: #080831;
           cursor: pointer;
-
         }
       }
     }
 
-    .right{
+    .right {
       padding: 2rem;
       flex: 2;
       height: 30rem;
@@ -691,4 +673,3 @@
     }
   }
 }
-

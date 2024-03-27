@@ -14,7 +14,7 @@ const Hero = () => {
           <img src='../../img/line.png' className='line'/>
           <p className='lineText'>What I do</p>
         </div>
-          <p className='Text'>I enjoy designing and creating delightful websites.</p>
+          <p className='Text'>I enjoy creating delightful websites and software products.</p>
           <button className='more'>Learn more</button>
         </div>
         <div className='right'>

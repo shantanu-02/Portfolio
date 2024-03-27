@@ -5,7 +5,7 @@ import Cube from "./Cube";
 
 const Who = () => {
   return (
-    <div className='who'>
+    <div className='who' id="who">
       <div className='containerWho'>
         <div className='left'> 
         <Canvas camera={{ position: [5, 5, 5], fov: 25 }}>
