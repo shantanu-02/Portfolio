@@ -24,7 +24,7 @@ const Contact = () => {
   }
 
   return (
-    <div className='contact'>
+    <div className='contact' id="contact">
       <div className='contactContainer'>
         <div className='left'>
           <form className='contactForm' ref={ref} onSubmit={handleSubmit}>
