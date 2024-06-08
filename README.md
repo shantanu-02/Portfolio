@@ -1,6 +1,6 @@
 # Portfolio
 
-- Demo: [Portfolio live link](shantanu02-portfolio-xi.vercel.app/)
+- Demo: [Portfolio live link](https://shantanu02-portfolio-xi.vercel.app/)
 
   Welcome to my portfolio, a curated collection of my work as a software engineer. This portfolio is designed to showcase my skills in designing and development of software product.
 
