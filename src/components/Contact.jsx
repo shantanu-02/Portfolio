@@ -34,7 +34,7 @@ const Contact = () => {
           </div>
             <input className='name' type='text' placeholder='Enter your name' required name='name'></input>
             <input className='email' type='email' placeholder='Enter your email' required name='email'></input>
-            <textarea className='message' type='text' placeholder='Write your message' required name='message'></textarea>
+            <input className='message' type='text' placeholder='Write your message' required name='message'></input>
             <button className='send' type='submit'>Send</button>
             {success==true &&
              "Your email has been sent succesfully. I'll get back to you shortly :)"}
