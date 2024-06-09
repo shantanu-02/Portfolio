@@ -1,7 +1,7 @@
 import React from 'react';
-import wechatImage from "../../public/img/wechat.png";
-import drawingToolImage from "../../public/img/Drawing-tool.png";
-import dashboardImage from "../../public/img/dashboard.png";
+import wechatImage from '../../public/img/wechat.png';
+import drawingToolImage from '../../public/img/Drawing-tool.png';
+import dashboardImage from '../../public/img/dashboard.png';
 
 const Card = (props) => {
   return (
