@@ -17,21 +17,21 @@ const defaultOptions = {
 
 const projects = [
   {
-    image: ".././public/img/wechat.png",
+    image: "../../public/img/wechat.png",
     title: "WeChat",
     description:
       "Wechat is a versatile and user-friendly messaging web-app designed to bring people closer, whether for personal conversations or staying in touch with loved ones. With a commitment to user privacy and security, Wechat is a platform for communication.",
     link: "https://github.com/shantanu-02/wechat"
   },
   {
-    image: ".././public/img/drawing-tool.png",
+    image: "../../public/img/drawing-tool.png",
     title: "Canvas - Drawing tool",
     description:
       "A drawing tool which allows users to collaborate and fill the canvas with their ideas. It's main features includes ability to draw with various colors and sizes of brush, to be able to erase it, undo it, redo it and an option to download.",
     link: "https://github.com/shantanu-02/Drawing-Tool"
   },
   {
-    image: ".././public/img/dashboard.png",
+    image: "../../public/img/dashboard.png",
     title: "Admin dashboard",
     description:
       "The Admin Dashboard displays tabs for multiple pages that provides data correctness and required administrative actions with responsivness. These pages contain the results of detailed analyses, represented images, graphs and pie charts.",
