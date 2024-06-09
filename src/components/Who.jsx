@@ -4,6 +4,13 @@ import { Canvas } from "@react-three/fiber";
 import Cube from "./Cube";
 
 const Who = () => {
+  const scrollToComponent = (componentId) => {
+    const component = document.getElementById(componentId);
+    if (component) {
+      component.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className='who' id="who">
       <div className='containerWho'>
@@ -21,7 +28,7 @@ const Who = () => {
         <div className='do'>
           <p className='lineText'>Your friendly neighbourhood front-end developer.</p>
           <p className='lineTexts'>I am a skilled web developer with experience in javascript, typescript and expertise in frameworks like React, Node.js, Three.js etc. I am a quick learner who can create efficient, scalable and user-friendly solutions that solves real-world problems. Let's Work together.</p>
-          <button className='more'>See my works.</button>
+          <button className='more' onClick={() => scrollToComponent('works')}>See my works.</button>
         </div>
         </div>
       </div>
