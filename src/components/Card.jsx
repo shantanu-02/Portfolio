@@ -8,7 +8,7 @@ const Card = (props) => {
     <a href={props.link} target="_blank" rel="noopener noreferrer" className="card-link" style={{ textDecoration: 'none', color: 'white' }}>
       <div className='card'>
         <div className='image'>
-          <img src={props.img} className='cardImage' alt={props.title} />
+          <img src={`${props.img}`} className='cardImage' alt={props.title} />
         </div>
         <h1 className="cardTitle">{props.title}</h1>
         <p className="cardInfo">{props.info}</p>
