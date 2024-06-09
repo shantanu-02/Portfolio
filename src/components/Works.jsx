@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import { Tilt } from "react-tilt";
-import wechatImage from '../../public/img/wechat.png';
+import wechatImage from '../../public/img/portfolio.png';
 import drawingToolImage from '../../public/img/Drawing-tool.png';
 import dashboardImage from '../../public/img/dashboard.png';
 
